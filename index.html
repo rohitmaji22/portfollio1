@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Yuji+Mai&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- loading page -->
+<div class="loading-page">
+    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="500px" height="500px"><path d="M 18 0.17578125 L 17.5 0.46484375 L 12.5 3.3535156 L 12 3.6425781 L 12 4.2207031 L 12 37.699219 L 12 38.277344 L 12.5 38.566406 L 17.5 41.455078 L 18 41.744141 L 18.5 41.455078 L 21.660156 39.630859 L 24.087891 45.039062 L 24.220703 45.333984 L 24.5 45.496094 L 31.5 49.535156 L 32 49.824219 L 32.5 49.535156 L 37.5 46.646484 L 38.28125 46.193359 L 37.912109 45.369141 L 34.162109 37.025391 L 37.498047 35.105469 L 38 34.818359 L 38 34.240234 L 38 12.300781 L 38 11.722656 L 37.5 11.433594 L 18.5 0.46484375 L 18 0.17578125 z M 18 1.6191406 L 36.501953 12.298828 L 32 14.896484 L 13.498047 4.21875 L 18 1.6191406 z M 13.25 4.6542969 L 31.75 15.330078 L 31.75 36.689453 L 25.125 32.867188 A 0.250025 0.250025 0 0 0 24.980469 32.833984 A 0.250025 0.250025 0 0 0 24.771484 33.185547 L 31.455078 48.066406 L 25.195312 44.453125 L 22.347656 38.107422 L 18.228516 28.939453 A 0.250025 0.250025 0 0 0 17.986328 28.791016 A 0.250025 0.250025 0 0 0 17.75 29.041016 L 17.75 40.15625 L 13.25 37.556641 L 13.25 4.6542969 z M 17.980469 12.626953 A 0.250025 0.250025 0 0 0 17.75 12.876953 L 17.75 23.267578 A 0.250025 0.250025 0 0 0 17.875 23.484375 L 26.875 28.679688 A 0.250025 0.250025 0 0 0 27.25 28.464844 L 27.25 22.689453 L 27.25 18.070312 A 0.250025 0.250025 0 0 0 27.125 17.853516 L 23.125 15.542969 L 23.103516 15.53125 L 18.125 12.660156 A 0.250025 0.250025 0 0 0 17.980469 12.626953 z M 36.75 12.732422 L 36.75 34.095703 L 32.755859 36.392578 A 0.250025 0.250025 0 0 0 32.753906 36.394531 A 0.250025 0.250025 0 0 0 32.734375 36.40625 L 32.25 36.6875 L 32.25 15.330078 L 36.75 12.732422 z M 18.25 13.308594 L 22.75 15.904297 L 22.75 20.236328 L 18.25 22.833984 L 18.25 13.308594 z M 24 17.492188 L 26 18.648438 L 26 20.957031 L 24 19.802734 L 24 17.492188 z M 23 20.667969 L 26.75 22.833984 L 26.75 28.03125 L 18.5 23.267578 L 23 20.667969 z M 18.25 30.207031 L 21.800781 38.105469 L 18.25 40.15625 L 18.25 30.207031 z M 25.544922 33.685547 L 31.875 37.339844 A 0.250025 0.250025 0 0 0 32.126953 37.339844 L 32.765625 36.966797 L 36.679688 45.675781 L 32.113281 48.314453 L 25.544922 33.685547 z"/></svg>
+        <path
+            d="M415.44 512h-95.11L212.12 357.46v91.1L125.69 512H28V29.82L68.47 0h108.05l123.74 176.13V63.45L386.69 0h97.69v461.5zM38.77 35.27V496l72-52.88V194l215.5 307.64h84.79l52.35-38.17h-78.27L69 13zm82.54 466.61l80-58.78v-101l-79.76-114.4v220.94L49 501.89h72.34zM80.63 10.77l310.6 442.57h82.37V10.77h-79.75v317.56L170.91 10.77zM311 191.65l72 102.81V15.93l-72 53v122.72z" />
+    </svg>
+    <div class="name-container">
+        <div class="logo-name">Rohit</div>
+        <div class="logo-text">welcome to my portfollio!</div>
+    </div>
+</div>
+  <!-- for the mouse pointer -->
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <!-- Repeat the circle div or create them dynamically with JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script src="script.js"></script>
+  <!-- for navbar -->
+  <nav> 
+    <header class="header">
+      <a href="#home" class="logo">Rohit <span> Maji</span></a>
+      <i class='bx bx-menu' id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#education" >Education</a>
+        <a href="#skill" >Skill</a>
+        <a href="#service" >Services</a>
+        <a href="#about" >About Me</a>
+        <a href="#contact">Contact Me</a>
+      </nav>
+    </header>
+<!-- main body part -->
+ <section class="home" id="home">
+  <div class="home-content">
+    <h1>Hi,Iam<span> Rohit Maji</span></h1>
+    <h3 class="text-animation">I'm a <span></span></h3>
+    <p>A passionate individual with a love for technology, design, and learning. I enjoy building meaningful projects and exploring creative ways to solve problems.</p>
+    <div class="social-icons">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class='bx bxl-github' ></i></a>
+      <a href="#"><i class='bx bxl-linkedin' ></i></a>
+      <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+    </div>
+    <div class="btn-group">
+      <a href="#contact" class="btn">hire me</a>
+      <a href="#" class="btn">Downlod CV</a>
+    </div>
+  </div>
+    <div class="home-ing">
+      <img src="photo1718226422.jpg" alt="">
+    </div>
+ </section>
+
+  <section class="education" id="education">
+    <h2 class="heading">Education</h2>
+    <div class="view">
+      <div class="block">
+        <h3>Bachelor of Technology</h3>
+        <p>from BBIT<br>
+          University of MAKAUT, Kolkata, West Bengal<br>
+          Graduated: Still Progessing<br>
+          Relevant coursework: Instructional Design, Child Development, Technology in Education
+          Honors:Google Developer Group (GDG) On-Campus Volunteer</p>
+      </div>
+      <div class="block">
+        <h3>Higher Secondary Certificate</h3>
+        <p>from <b>K H S (Kona High School)</b><br>
+        In the year of 2022<br>
+        Achieving 70% and excelling in subjects like Mathematics and Science<br>
+        During this time, I actively participated in <b>sports competitions,Annual Science Day</b> showcasing my enthusiasm for both academics and co-curricular activities.
+        </p>
+      </div>
+      <div class="block">
+        <h3>Senior Diploma in Drawing and Painting</h3>
+        <p>Issuing Organization: Bharatiya Sangeet-O-Sanskriti Samsad, West Bengal.<br>
+          Date Awarded: October 2016<br>
+          Examination Level: Third-year examination in Drawing and Painting.<br>
+          Academic Year: 2015-16<br>
+          Achievement: Secured the first position in the division</p>
+      </div>
+    </div>
+  </section>
+  <section class="skill" id="skill">
+    <div class="skill-box">
+      <h2 class="heading">Skills</h2>
+      <div class="wrapper">
+        <div class="skill-items">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png" height="250px" width="250px" alt="C">
+          <h2>C</h2><p>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+        </p></div>
+        <div class="skill-items">
+          <img src="https://www.kaashivinfotech.com/blog/wp-content/uploads/2023/11/1200px-Python.svg_.png" alt="" height="250px" width="250px">
+          <h2>pyhton</h2><p>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+          
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+        </p></div>
+        <div class="skill-items">
+          <img src="https://education.oracle.com/file/general/p-80-java.png" height="250px" width="250px" alt="">
+          <h2>Java</h2><p>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+        </p><i class="fa-solid fa-star"></i>
+      </div>
+    </div>
+  </section>
+  <section class="service" id="service">
+    <h2 class="heading">Services</h2>
+    <div class="service-container">
+      <div class="service-box">
+        <div class="service-info">
+          <h4>Web Development</h4>
+          <p>
+            We create modern, responsive, and dynamic websites tailored to your needs.
+          </p>
+        </div></div>
+        <div class="service-box">
+        <div class="service-info">
+          <h4>App Development</h4>
+          <p>
+            Developing user-friendly mobile applications for iOS and Android platforms.
+          </p>
+        </div>
+      </div>
+      <div class="service-box">
+        <div class="service-info">
+          <h4>Ethical Hacking</h4>
+          <p>
+            Simulate attacks to safeguard your assets.
+          </p>
+        </div>
+      </div>
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Network Analysis</h4>
+            <p>
+              Monitor and secure your networks with precision.
+            </p>
+          </div></div>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <h2 class="heading">About <span>Me</span></h2>
+    <div class="about-container">
+      <div class="about-box">
+        <div class="about-info">
+          <p>
+            I am a passionate and dedicated B.Tech student specializing in Computer Science. My academic journey has been fueled by a deep curiosity for technology and its transformative potential. With a strong foundation in programming, algorithms, and data structures, I enjoy exploring areas like web development, artificial intelligence, and cybersecurity.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>me</span></h2>
+      <form action="">
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text"
+            placeholder="Full Nme">
+          </div>
+          <div class="input-box">
+            <input type="email"
+            placeholder="Email">
+          </div>
+          <div class="input-box">
+            <input type="number"
+            placeholder="Phone number">
+            <input type="text"
+            placeholder="Subject">
+          </div>
+          <div class="input-group-2">
+            <textarea name="" id="" cols="30" rows="10"
+            placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+          </div>
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="social">        
+      <a href="#"><i class='bx bxl-facebook'></i></a>
+      <a href="#"><i class='bx bxl-github' ></i></a>
+      <a href="#"><i class='bx bxl-linkedin' ></i></a>
+      <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+      </div>
+    
+    <ul class="list">
+      <li><a href="#home">FAQ</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Contact Me</a></li>
+      <li><a href="#">skill</a></li>
+    </ul>
+    <p class="copyright">
+      Rohit Maji |  All Rights Reserved
+    </p>
+  </footer>
+  <script src="script.js"></script>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+    integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
+  
+
+</html>
